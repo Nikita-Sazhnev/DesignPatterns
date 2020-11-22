@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?
 
 abstract class DiscFactory {
@@ -49,3 +50,6 @@ foreach ($creators as $creator) {
     $creator->createDisc()->readMemory();
     echo  "<br />";
 }
+=======
+
+>>>>>>> 5e835420f8b62eb62be9ebe785ab731cda70a6fd
