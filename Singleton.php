@@ -1,4 +1,5 @@
 <?
+namespace creational;
 
 class Singletone {
     private static $instance;
@@ -10,7 +11,7 @@ class Singletone {
     public function __clone() { }
 
     public function __wakeup() {
-        throw new Exception("No");
+        throw new \Exception("No");
     }
 
     public static function getInstance() {
